@@ -1,0 +1,47 @@
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: ubuntu,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#canvas {
+  position: relative;
+  height: 600px;
+  width: 900px;
+
+  border: 2px solid black;
+  margin: auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+
+.arrow {
+  position: relative;
+  z-index: 1;
+
+  width: 50px;
+  height: 50px;
+  border: 2px solid #0132bb;
+  border-radius: 0.4rem;
+  padding: 5px;
+  box-sizing: border-box;
+  background: #f2f2f2;
+  opacity: 0.8;
+
+  transition: transform 0.3s;
+
+  cursor: pointer;
+}
+
+.image {
+  width: 35px;
+  height: 35px;
+}
+
+.arrow:hover {
+  transform: scale(1.1);
+}
